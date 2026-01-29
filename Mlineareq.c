@@ -4,9 +4,9 @@
 #include<math.h>
 int train[][3] = {
     {0,0,0},
-    {1,0,2},
-    {2,0,4},
-    {3,0,6}
+    {1,0,1},
+    {0,1,1},
+    {1,1,1}
 };
 #define train_count (sizeof(train)/sizeof(train[0]))
 
